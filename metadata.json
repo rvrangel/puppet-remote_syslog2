@@ -1,0 +1,14 @@
+{
+  "name": "rrangel-remote_syslog2",
+  "version": "0.1.0",
+  "author": "Renan Rangel",
+  "summary": "install and configure Papertrail's remote_syslog2",
+  "license": "Apache 2.0",
+  "source": "https://github.com/rvrangel/puppet-remote_syslog2",
+  "project_page": "https://github.com/rvrangel/puppet-remote_syslog2",
+  "issues_url": "https://github.com/rvrangel/puppet-remote_syslog2/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
