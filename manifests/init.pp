@@ -1,7 +1,5 @@
-class remote_syslog2 ($host, $port, $files) {
+class remote_syslog2 ($host, $port, $log_files) {
 	
-	$log_files = $files
-
 	class {'remote_syslog2::install':}
 	
 	file {'/etc/log_files.yml':
