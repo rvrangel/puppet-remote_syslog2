@@ -16,7 +16,7 @@ Get $host and $port for your log destination from the Papertrail website.
 class {'remote_syslog2':
    host => 'logsX.papertrailapp.com',
    port => '11111',
-   files => ["/var/log/nginx/error.log", "/var/log/syslog", "/var/log/auth.log"]
+   log_files => ["/var/log/nginx/error.log", "/var/log/syslog", "/var/log/auth.log"]
 }
 ```
 
